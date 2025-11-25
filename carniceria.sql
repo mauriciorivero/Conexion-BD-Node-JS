@@ -36,7 +36,7 @@ CREATE TABLE `cliente` (
   `primer_apellido` varchar(50) NOT NULL,
   `segundo_apellido` varchar(50) DEFAULT NULL,
   `fecha_nacimiento` date NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `cliente`
@@ -59,7 +59,7 @@ CREATE TABLE `perfil_social` (
   `usuario_id` int NOT NULL,
   `red_social_id` int NOT NULL,
   `url_perfil` varchar(200) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `perfil_social`
@@ -83,7 +83,7 @@ CREATE TABLE `redes_sociales` (
   `id` int NOT NULL,
   `nombre_red_social` varchar(50) NOT NULL,
   `url_red_social` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `redes_sociales`
@@ -108,7 +108,7 @@ CREATE TABLE `telefono` (
   `tipo_telefono` varchar(20) NOT NULL,
   `numero_telefono` varchar(20) NOT NULL,
   `id_usuario` int NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `telefono`
